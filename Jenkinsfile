@@ -13,7 +13,7 @@ pipeline {
                 deleteDir()
                 sh 'echo cloning repo'
                 sh 'git clone https://github.com/Rakeshpagidimarri/jenkins-terraform-ansible-task.git' 
-                sh 'echo '
+               
             }
         }
         
