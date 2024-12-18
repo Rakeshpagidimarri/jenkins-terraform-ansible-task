@@ -22,7 +22,6 @@ pipeline {
                     dir('/var/lib/jenkins/workspace/ansible-tf/jenkins-terraform-ansible-task/') {
                     sh 'pwd'
                     sh 'terraform init'
-                    sh 'terraform destroy -auto-approve'
                     sh 'terraform plan'
                     sh 'terraform apply -auto-approve'
                     }
